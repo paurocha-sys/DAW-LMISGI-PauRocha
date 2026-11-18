@@ -1,0 +1,47 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Satisfacció del servei d'atenció al client",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Com valores el temps de resposta?",
+          "tipus": "opcio_multiple",
+          "opcions": ["Molt bo", "Acceptable", "Millorable", "Dolent"]
+        },
+        {
+          "ordre": 2,
+          "text": "Recomanaries el servei a un amic?",
+          "tipus": "opcio_multiple",
+          "opcions": ["Sí", "Potser", "No"]
+        },
+        {
+          "ordre": 3,
+          "text": "Què milloraries del servei?",
+          "tipus": "text_lliure"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Preferències d'oci dels alumnes",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Quina activitat prefereixes fer en el temps lliure?",
+          "tipus": "opcio_multiple",
+          "opcions": ["Esport", "Música", "Videojocs", "Llegir"]
+        },
+        {
+          "ordre": 2,
+          "text": "Quantes hores d'oci tens a la setmana?",
+          "tipus": "opcio_multiple",
+          "opcions": ["Menys de 5", "Entre 5 i 10", "Més de 10"]
+        }
+      ]
+    }
+  ]
+}
